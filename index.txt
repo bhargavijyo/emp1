@@ -1,0 +1,31 @@
+//Javascript 
+Js is a programming language used to create interactive 
+and dynamic user responsive web pages.
+
+why we use 
+1.it can manipulate data and handling data 
+2.make API requests 
+3.perform calculations 
+
+//variables  -- used to store data
+1.var  -- It can be redeclare and updated
+2.let -- It can't be redeclare but we can update
+3.const -- It can't redeclare and update
+
+// Console methods-- It displays the output data  or
+interact with user on different areas of browser's developer 
+1.console.log -- It prints data directly 
+2.console.error -- It displays the error msseges
+3. console.warn -- It displays the warning 
+4.console.clear -- It clears the all content in the web page 
+
+//Printing statements 
+1.console.log()--
+2.alert()-- It displays a pop-up dialog box with a specified msg
+3.confirm()--This is also same as alert dialog box but it shows msgs like (y/n)
+4.prompt()-- Prompt also a display dialog box but in this user can give input what user needs
+5.document.writeln()--  writes a content directly into the web page
+
+//Data types 
+1.primitive -- numbers, strings, boolean, undefined and null
+2. Non-primitive -- Arrays , object, function, date
