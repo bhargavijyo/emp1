@@ -82,3 +82,54 @@ interact with user on different areas of browser's developer
     }else{
         
     }
+
+
+//Nodes js -- javascript run time environment that allows us to run javascript
+                code outside the web browser 
+                we can directly run on server side 
+                frontend - javascript/reactjs 
+                backend - javascript/node js 
+
+                //uses 
+                web servers 
+                rest apis
+                backend applications 
+                real-time applications 
+
+//differences --
+js:  programming language 
+     used to write js code 
+     it can run in any browser like edge,chrome,firefox 
+     provides browser apis like windows,document 
+Node.js:  Run time environment 
+          used to execute javascript outside the browser 
+          Run on operating systems/servers 
+          server side apis like http,ftp,fs,path 
+//v8 
+v8 is a browser to acts as a javascript engine developed by google, 
+Node.js uses this v8 js to execute the js code .
+
+2.Looping statements -- used to execute a block of code until a condition met.
+    1.for loop -- known number of conditions 
+        syntax:
+            for(initialization;condition;inc/dec){
+                stmt;
+            }
+    2.while loop -- Executes the code as long as the condition is true.
+        syntax:
+            while(condition){
+                stmt;
+            }
+    3.do...while -- Executes the code atleast once, then checks the condition 
+        syntax:
+            do{
+                stmt;
+            }
+            while(condition);
+    4. for...of -- used to iterate over the value of iterable objects like arrays and strings.
+
+    5.for...in --Used to iterate over the properties of an object.
+
+//Functions -- it is a reusable block of code that performs specific task.
+                These functions can help make code organized,reusable, and easier to maintain 
+                

@@ -153,3 +153,76 @@ if(a>=18){
 }else{
     console.log("invalid");
 }*/
+/*let a=10;
+let b=20;
+console.log(a);*/
+
+//for loop
+/*let i=1;
+for(i=1;i<=10;i++){
+    console.log(i);
+}*/
+
+//while loop 
+/*let i=1;
+while(i<=5){
+    console.log(i);
+    i++;
+}*/
+
+//do while 
+/*let a=4;
+do{
+    console.log(a);
+    a++;
+}
+while(a<=10);*/
+//for of 
+/*const fruits = ["a","b","c","d"];
+for(let f of fruits){
+    console.log(f);
+}*/
+
+//for in 
+/*let student = {
+    name:"jasim",
+    age:20,
+    grade:"A"
+};
+for(let key in student){
+    console.log(student[key]);
+}*/
+
+//function declaration 
+/*function greet(){
+    console.log("Hello, Students");
+}
+greet();*/
+
+//function parameters -- allows you to pass values into a function 
+/*function target(name){
+    console.log("Hello",name);
+}
+target("Alice");*/
+
+//function with return value -- 
+/*function add(a,b){
+    return a+b;
+}
+let res = add(5,6);
+console.log(res);*/
+
+//Function expression -- assign to a variable 
+/*const m= function(a,b){
+    return a*b;
+};
+console.log(m(4,8));*/
+
+//arrow function 
+/*let s = (a,b) =>{
+    return a-b;
+}
+console.log(s(10,4));
+
+let x= a => a*a;
+console.log(x(9));*/
