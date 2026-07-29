@@ -29,3 +29,56 @@ interact with user on different areas of browser's developer
 //Data types 
 1.primitive -- numbers, strings, boolean, undefined and null
 2. Non-primitive -- Arrays , object, function, date
+
+//Type conversion -- It is the process of changing a value from one data type to another 
+1. Implicit type -- In this Automatically convert one data type to another 
+2.Explicit type -- In this The programmer automatically converts one type to another
+
+//Flow control statements -- It determines the order in which codes executed
+1.conditional statements -- It executes based on condition 
+    1.if statement --  Executes the block of code if condition is true 
+        syntax: 
+            if(condition){
+
+            }
+    2.if...else -- if condition is true otherwise else block 
+        syntax:
+            if(){
+                stmt
+            }else{
+                stmt
+            }
+    3.else if -- In this we are check multiple conditions 
+        syntax: 
+            if(){
+                
+            }
+            else if(){
+
+            }else if(){
+
+            }else{
+
+            }
+    4.switch -- selects one of many code blocks to execute 
+        syntax:
+            switch(condition){
+                case 1:
+                break;
+                case 2:
+                break;
+                ....
+                default;
+            }
+    5.Nested if -- If statement placed completely inside another if....
+    in this way it will evaluate all conditions ,
+    if any condition is false it will stop execution there.
+    if(){
+        if(){
+
+        }else{
+
+        }
+    }else{
+        
+    }

@@ -1,4 +1,4 @@
-var name = "RAM";
+/*var name = "RAM";
 var name = "Ravi";
 console.log(name);//Ravi 
 
@@ -41,4 +41,115 @@ let ex;
 console.log(ex);
 
 let em = null;
-console.log(em);
+console.log(em);*/
+
+//Implicit type 
+
+//1.string implicit --  If we add any data type with string it will always give string as the output.
+/*console.log(typeof("hello"+"hello"));//string
+console.log(typeof("hello"+123));//string
+console.log(typeof("hello"+true));//string
+console.log(typeof("hello"+undefined));
+console.log(typeof("hello"+null));
+console.log(typeof("hello"+[1,2]));
+console.log(typeof("hello"+{1:5}));*/
+
+//Number implicit 
+
+/*console.log(typeof(123+"hello"));//string
+console.log(typeof(123+123));//Number
+console.log(typeof(123+true));//Number
+console.log(typeof(123+undefined));//Number
+console.log(typeof(123+null));//Number
+
+//primitive + non-primitive == string
+console.log(typeof(123+[1,2]));//string
+console.log(typeof(123+{1:5}));//string*/
+
+//Boolean Implicit 
+
+/*console.log(typeof(true+"hello"));//string
+console.log(typeof(true+123));//Number
+console.log(typeof(true+true));//Number
+console.log(typeof(true+undefined));//Number
+console.log(typeof(true+null));//Number
+//primitive + non-primitive == string
+console.log(typeof(true+[1,2]));//string
+console.log(typeof(true+{1:5}));//string*/
+
+//Explicit 
+/*console.log(Number(1));//1
+console.log(Number(""));//0
+console.log(Number("abc"));//Nan
+console.log(Number("123"));//123
+console.log(Number(-123));//-123
+console.log(Number(true));//1
+console.log(Number(false));//0
+console.log(Number({a:5}));//Nan
+console.log(Number(["b","h"]));//Nan
+
+console.log(Boolean());//false
+console.log(Boolean(""));//false
+console.log(Boolean(undefined));//false
+console.log(Boolean(null));//false
+console.log(Boolean("abc"));//true
+console.log(Boolean(123));//true*/
+
+//if 
+/*let age = 10;
+if(age>=18){
+    console.log("adult");
+}
+else{
+    console.log("child");
+}*/
+
+
+//else if 
+/*let m = 25;
+if(m>=90){
+    console.log("A");
+}else if(m>=75){
+    console.log("B");
+}else if(m>=50){
+    console.log("C");
+}else{
+    console.log("Fail");
+}*/
+
+//switch 
+
+/*let d=3;
+switch(d){
+    case 1:
+        console.log("Mon");
+        break;
+    case 2:
+        console.log("Tue");
+        break;
+    case 3:
+        console.log("Wed");
+        break;
+    default:
+        console.log("Invalid day");
+}*/
+
+
+//let's we take age is 18 ,w=65, h=155 then ppl will be eligible
+
+/*let a=18;
+let w=70;
+let h = 160;
+if(a>=18){
+    if(w>65){
+        if(h>155){
+            console.log("Eligible");
+        }else{
+            console.log("Not eligible");
+        }
+    }else{
+        console.log("not proper ht");
+    }
+}else{
+    console.log("invalid");
+}*/
