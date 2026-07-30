@@ -133,3 +133,30 @@ Node.js uses this v8 js to execute the js code .
 //Functions -- it is a reusable block of code that performs specific task.
                 These functions can help make code organized,reusable, and easier to maintain 
                 
+            //callback function -- It used to pass an argument to another 
+                                    function
+            
+            //IIFE(Immediately invoked function expression)--
+            Executes Immediately after it is defined
+            ()
+
+//Operators --operators used to perform an operation on variables 
+    1.Arithmetic  -- +,-,*,/,%,**,++,--
+    2.Assignment -- =,+=,-=,*=,/=,%=,**=
+    3.Relational & comparison -- ==,===,!=,!==,>,<,>=,<=
+            ==(compares values after type conversion )
+            ===(It compares both value and type)
+    4.Logical operators -- &&, ||, !
+                && (when all conditions are true then answer/output must be true)
+                ||(anyone one condition is true output is true)
+                !(reverse the result)
+//Data structures --
+    1.spread operator(...)-- The spread operator used to spread / unpack the elements
+        of an array or properties of an object into another array,object or function call.
+
+    2.Rest operator(...)-- used to collect multiple values into a single array.
+
+    3.Destructuring -- Extracts values from arrays 
+                        properties from objects and store them in variables 
+                1.Array --
+                2.Object -- 

@@ -226,3 +226,111 @@ console.log(s(10,4));
 
 let x= a => a*a;
 console.log(x(9));*/
+
+//callback 
+/*function greet(name, callback){
+    console.log("Hello",name);
+    callback();
+}
+function bye(){
+    console.log("Goodbye!");
+}
+
+greet("John",bye);*/
+
+//Default parameters 
+/*function name(n="ravi"){
+    console.log("hello",n);
+}
+name();
+name("sam");*/
+
+//iife 
+/*(function (){
+    console.log("Function executed");
+})();*/
+
+/*let a=10;
+let b=3;
+console.log(a + b);//13
+console.log(a - b);//7
+console.log(a * b);//30
+console.log(a / b);//3.333
+console.log(a % b);//1
+console.log(a ** b);//1000
+
+console.log(a>b);
+console.log(a < b);
+console.log(a == b);
+console.log(a <= b);
+console.log(a >= b);
+console.log(a != b);
+
+a++;
+console.log(a);//11
+
+let x=10;
+x**=5;
+console.log(x);
+
+console.log(5=="5");//true 
+console.log(5==="5");//false
+
+let age =25;
+console.log(age>=18 && age<=60);//true
+console.log(age>=30 && age<=60);//false 
+console.log(age>= 30 || age<=60);//true
+console.log(!false);//true*/
+
+//spread with array 
+/*let f =["Apple","Banana","Mango"];
+let b = ["a","b","c"];
+let newFruits = ["queen",...f, ...b, "king"];
+console.log(newFruits);*/
+
+//spread with objects 
+
+/*let s={
+    name:"jasim",
+    age:20
+};
+let m ={
+    ...s,
+    course: "CSE"
+};
+console.log(m);*/
+
+//rest
+function add(...nums){
+    console.log(nums);
+}
+add(10,20,30,40,50,90);
+
+//Rest with parameters 
+function sum(...nums){
+    let t=0;
+    for(let n of nums){
+        t += n;
+    }
+    return t;
+}
+console.log(sum(10,20,30,40));//100
+
+//Array dest 
+let f=["a","b","c"];
+let[first, second,third] = f;
+console.log(first);//a
+console.log(second);//b
+console.log(third);//c
+
+//object dest 
+let s={
+    n:"Bhagi",
+    age:21,
+    role:"FSD"
+};
+let {n,age,role} = s;
+console.log(n);
+console.log(age);
+console.log(role);
+
