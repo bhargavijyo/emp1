@@ -301,19 +301,19 @@ let m ={
 console.log(m);*/
 
 //rest
-function add(...nums){
+/*function add(...nums){
     console.log(nums);
 }
-add(10,20,30,40,50,90);
+add(10,20,30,40,50,90);*/
 
 //Rest with parameters 
-function sum(...nums){
+/*function sum(...nums){
     let t=0;
     for(let n of nums){
         t += n;
     }
-    return t;
-}
+    return t;*/
+/*}
 console.log(sum(10,20,30,40));//100
 
 //Array dest 
@@ -332,5 +332,58 @@ let s={
 let {n,age,role} = s;
 console.log(n);
 console.log(age);
-console.log(role);
+console.log(role);*/
+
+
+//let fruits = ["apple","banana","mango","orange"];
+//fruits.push("mango");
+//console.log(fruits);
+//fruits.pop();
+//fruits.unshift("mango","grapes");
+//fruits.shift();
+//fruits.splice(1,2);//1 .starting index 2.num of elts to delete
+/*fruits.splice(1,0,"grapes");
+fruits.splice(1,1,"medicine");
+console.log(fruits);*/
+
+
+//merge 
+/*let arr1 = [1,2,3];
+let arr2=[4,5,6];
+let res = arr1.concat(arr2);
+console.log(res);//[1,2,3,4,5,6]*/
+
+/*let f=["a","b","c","d","e"];
+let res = f.slice(1,3);
+console.log(res);*/
+
+/*let nums = [1,2,[3,4],[6,7,8]];
+console.log(nums.flat());*///[1,2,3,4,5,6,7,8]
+
+//let n = [1,2,3,4];
+//n.fill(0);
+//specify range 
+//n.fill(0,1,3);
+/*console.log(n.includes(8));
+console.log(n);//[0,0,0,0]*/
+
+/*let fruits=["mango","apple","banana","orange","grapes"];
+fruits.sort();
+console.log(fruits);*/
+
+//let n = [10,5,20,2,5,8,20,20];
+
+//n.sort();
+//console.log(n);//[10,2,20,5] [2,5,10,20]
+//n.sort((a,b)=>a-b);//a =10, b=5 a-b =5 [5,10,20,2] [5,10,2,20]
+//console.log(n.indexOf(25));//3
+//console.log(n.lastIndexOf(20));//7
+//n.reverse();
+
+//console.log(n.join("-"));
+
+let fruits=["mango","apple","banana","orange","grapes"];
+let n=[1,2,3,5];
+console.log(fruits.toString());
+console.log(n.toString());
 

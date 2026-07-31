@@ -160,3 +160,40 @@ Node.js uses this v8 js to execute the js code .
                         properties from objects and store them in variables 
                 1.Array --
                 2.Object -- 
+
+//Es6 Array methods --
+            ES6 -- ECMScript6 it introduced new features that help 
+                    us to write modern,clean,and maintainable javascript code.
+
+            1.manipulation -- add or removing elements 
+                                push -- Adds one or more elements to the end of an array 
+                                        syntax : array.push(element);
+                                pop -- remove an element 
+                                        syntax: array.pop();
+                                unshift -- Adds one or more elements to the begining of an array.
+                                shift -- Removes the first element from an array.
+                                splice  -- It is used to add, remove or replace elements at any position .
+                                        syntax: array.splice(start, deleteCount,item1,item2...);
+            2.Merge -- 
+                    1.concat() -- combines two or more arrays 
+
+                    2.slice() -- Returns a portion(sub part) of an array without changing original array.
+                                syntax: array.slice(start, end);
+                    3.flat() -- converts a nested array into  a flatter array.
+
+                    4.fill() -- replace array elements with a specified value .
+
+                    5.includes() -- Checks whether an array contais a specific value.
+                                    then it return true or false.
+                    
+                    6.sort() -- sorts the elements of an array.
+
+                    7.indexof() -- Returns the first index where an element if found
+
+                    8.lastIndexOf() -- Return the last element where an element occurs
+
+                    9.reverse() -- Reverses the order of elements.
+            3.To string -- 
+                    1.join() -- converts array elements into a string using a seperator.
+
+                    2.toString() -- converts array into a string.
