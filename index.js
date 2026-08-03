@@ -382,8 +382,78 @@ console.log(fruits);*/
 
 //console.log(n.join("-"));
 
-let fruits=["mango","apple","banana","orange","grapes"];
+/*let fruits=["mango","apple","banana","orange","grapes"];
 let n=[1,2,3,5];
 console.log(fruits.toString());
-console.log(n.toString());
+console.log(n.toString());*/
+
+
+/*let numbers = [10,20,30,45,50];
+let result = numbers.some(function(num){
+    return num>=80;
+});
+console.log(result);//false
+
+let numbers = [10,20,30,45,50];
+let result = numbers.every(function(num){
+    return num>5;
+});
+
+console.log(result);//true*/
+
+/*let f=["mango","apple","banana","orange","grapes","mango"];
+f.forEach(function(fruit){
+    console.log(fruit);
+});*/
+//map()
+/*let n=[1,2,3,4,5];
+let result = n.map(function(number){
+    return number*2;
+});
+console.log(result);*/
+
+//filter()
+/*let n=[1,2,3,4,50,20,35,87];
+let result = n.filter(function(number){
+    return number>15;
+});
+console.log(result);*/
+
+//find()
+/*let n=[1,2,3,4,16,50,20,35,87];
+let result = n.find(function(number){
+    return number>15;
+});
+console.log(result);*/
+
+//reduce()
+/*let n=[10,20,30,40];
+let total = n.reduce(function(sum,number){
+    return sum+number;
+},0);
+console.log(total);//0+10 =10,10+20=30, 30+30=60, 60+40=100*/
+
+//string methods 
+let s="javaScript";
+console.log(s);
+console.log(s.length);//10
+console.log(s.charAt(7));//r
+console.log(s.at(9));
+console.log(s.at(-3));
+console.log(s.indexOf("a"));//1 
+console.log(s.lastIndexOf("a"));//3
+console.log(s.includes("java"));//true
+console.log(s.startsWith("Script"));//false
+console.log(s.endsWith("java"));//false
+console.log(s.slice(0,4));//java
+console.log(s.substring(4,10));//Script
+
+let text = " I like web development web web ";
+console.log(text.replace("web","front-end"));
+console.log(text.replaceAll("web","front-end"));
+console.log(text.toUpperCase());
+console.log(text.toLowerCase());
+console.log(text.trim());
+console.log(text.trimStart());
+console.log(text.trimEnd());
 

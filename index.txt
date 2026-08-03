@@ -197,3 +197,62 @@ Node.js uses this v8 js to execute the js code .
                     1.join() -- converts array elements into a string using a seperator.
 
                     2.toString() -- converts array into a string.
+            4.Higher-order Array methods -- A higher-order function is a function that:
+                                            accepts another function as an argument or returns a function 
+                                            simply receive a callback functions.
+
+                    1.some() -- checks whether at least one element satisfies a condition.
+
+                    2.every() -- checks whether all elements satisfy a condition.
+
+                    3.forEach() -- Executes a function once for every array element.
+
+                    4map() -- Creates a new array by modifying each element .
+                    transforms every element and return new array.
+
+                    5. filter() -- Creats a new array containing only 
+                                    elements that a satisfy a condition.
+                                    selects matching elements.
+                    6.find() -- Returns the first element that satisfies a condition .
+                                    it returns only one element 
+                    
+                    7.reduce() -- Reduces all array elements to a single value.
+                                    similar to sum 
+//String methods -- A string is a sequence of characters used to store and manipulate text or data.
+            1.length -- Returns the number of characters in a string.
+
+            2.charAt(index) -- Returns the character at the specified index.
+
+            3.at() -- Returns the character at the specified index.
+                        It also supports negative indexes.
+
+            4.indexOf() -- Returns the index of the first occurence of a specified value.
+
+            5.lastIndexOf() -- Returns the index of the last occurence of a specified value.
+
+            6.includes() -- Checks whether a string contains specified value or not.
+
+            7.startWith() -- Checks whether a string starts with a specified value .
+
+            8. endsWith() -- Checks whether a string ends with a specified value .
+
+            9.slice() -- portion 
+
+            10.substring() -- returns characters between two indexes.
+
+            11.replace() -- It replaces the first matching value.
+
+            12. replaceAll() -- replaces all matching values.
+
+            13.toUpperCase() -- convert entire string to uppercase.
+
+            14.toLowerCase() -- convert entire string to lowercase.
+
+            15.trim() -- Removes spaces from both ends of a string.
+
+            16.trimStart() -- Remove spaces at the begining of a string.
+
+            17.trimEnd() -- Remove spaces at the end of a string.
+
+
+
