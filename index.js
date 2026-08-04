@@ -434,7 +434,7 @@ let total = n.reduce(function(sum,number){
 console.log(total);//0+10 =10,10+20=30, 30+30=60, 60+40=100*/
 
 //string methods 
-let s="javaScript";
+/*let s="javaScript";
 console.log(s);
 console.log(s.length);//10
 console.log(s.charAt(7));//r
@@ -446,9 +446,9 @@ console.log(s.includes("java"));//true
 console.log(s.startsWith("Script"));//false
 console.log(s.endsWith("java"));//false
 console.log(s.slice(0,4));//java
-console.log(s.substring(4,10));//Script
+console.log(s.substring(4,10));//Script*/
 
-let text = " I like web development web web ";
+/*let text = " I like web development web web ";
 console.log(text.replace("web","front-end"));
 console.log(text.replaceAll("web","front-end"));
 console.log(text.toUpperCase());
@@ -456,4 +456,55 @@ console.log(text.toLowerCase());
 console.log(text.trim());
 console.log(text.trimStart());
 console.log(text.trimEnd());
+*/
 
+/*let s = "i , like, java, script";
+let st = "i like java 1234";
+console.log(st.match(/\d+/));
+
+console.log(s.split(","));
+
+let t="js ";
+console.log(t.repeat(4));
+
+let n="5";
+console.log(n.padStart(3," "));//005
+console.log(n.padEnd(3,"0"));//500*/
+
+//current date
+
+/*let cd = new Date();
+console.log(cd);
+
+//using year,month,day jan(0)-- dec(11)
+let date = new Date("2026-08-04");
+console.log(date);
+
+//specific date 
+let dat = new Date("2026-08-04");
+
+console.log(dat);*/
+
+/*let date = new Date();
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+console.log(date.getMilliseconds());
+console.log(date.getTime());*/
+
+let date = new Date();
+//date.setFullYear(2027);
+//date.setMonth(11);
+//date.setDate(20);
+//date.setHours(23);
+//date.setMilliseconds(500);
+console.log(date.toDateString());
+console.log(date.toTimeString());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+console.log(date.toLocaleString());
+console.log(date.toISOString());

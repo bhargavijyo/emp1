@@ -254,5 +254,69 @@ Node.js uses this v8 js to execute the js code .
 
             17.trimEnd() -- Remove spaces at the end of a string.
 
+            18. split() -- splits string into a array.
+
+            19.concat()-- 
+
+            20.repeat() -- Repeats a string a specified number of times.
+
+            21.padStart() -- Pads the begining of a string.
+
+            22.padEnd() -- Pads the ending of a string.
+
+            23. search() =~ indexOf()
+
+            24. match() -- returns the matched text based on a pattern.
+
+
+//Date Methods -- Used to create a dates and times.
+                    get the current date and time 
+                    creates a specific date
+                    retrieve individual parts of a date(year,month,day,hours, etc)
+                    modify dates and times
+                    format dates into readable strings.
+
+                    syntax: 
+                            let date = new Date();
+            //Date getter methods 
+                    1.getFullYear() -- returns the year.
+                    2.getMonth() -- Returns month(0-11)
+                    3.getDate() -- returns the day of month(1-31)
+                    4.getDay() -- Returns the day of week(0-6)
+                    5.getHours()-- returns the hour(0-23)
+                    6.getMinutes() -- returns the mints(0-59)
+                    7.getSeconds() -- (0-59)
+                    8.getMilliseconds()--(0-999)
+                    9.getTime() -- returns the number of millisecs since 1,1970(unix epoch)
+
+            //Date setter methods : 
+                    1.setFullYear()-- sets the year
+                    2.setMonth() 
+                    3.setDate()
+                    4.setHours()
+                    5.setMinutes()
+                    6.setSeconds()
+                    7.setMilliseconds()
+            //Date Formatting -- 
+                    1.toDateString() -- Returns only the date in a readable format.
+                    2.toTimeString() -- returns only time.
+                    3.toLocalDateString() -- Returns the date based on user's locale.
+                    4.toLocaleTimeString() --Returns the time based on user's locale.
+                    5.toLocaleString() -- Returns both date and time in local format.
+                    6.toISOString() -- returns the date in ISO 8601 format.
+            //utc methods -- These methods work with coordinated universal time(utc) instead of local time.
+                    1.getUTCFullYear()
+                    2.getUTCMonth()
+                    3.getUTCDate()
+                    4.getUTCDay()
+                    5.getUTCHours()
+                    6.getUTCMinutes()
+                    7.getUTCSeconds()
+
+                
+
+
+
+
 
 
