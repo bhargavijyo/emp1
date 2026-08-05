@@ -496,7 +496,7 @@ console.log(date.getSeconds());
 console.log(date.getMilliseconds());
 console.log(date.getTime());*/
 
-let date = new Date();
+/*let date = new Date();
 //date.setFullYear(2027);
 //date.setMonth(11);
 //date.setDate(20);
@@ -507,4 +507,84 @@ console.log(date.toTimeString());
 console.log(date.toLocaleDateString());
 console.log(date.toLocaleTimeString());
 console.log(date.toLocaleString());
-console.log(date.toISOString());
+console.log(date.toISOString());*/
+
+//synchronous
+/*console.log("start");
+console.log("Learning Javascript");
+console.log("end");*/
+
+//Asynchronous(non-blocking)
+//setTimeout
+/*console.log("start");
+setTimeout(()=>{
+    console.log("Learning js");
+},2000);
+
+console.log("End");*/
+
+//setInterval 
+/*let count=1;
+setInterval(()=>{
+    console.log("Count:",count);
+    count++;
+},1000);//Count: 1 , count: 2..*/
+
+//clearTimeout 
+/*let timer = setTimeout(()=>{
+    console.log("Hello");
+},3000);
+clearTimeout(timer);
+console.log("Timer Cancelled");
+
+let count=1;
+let interval = setInterval(()=>{
+    console.log(count);
+    count++;
+    if(count>5){
+        clearInterval(interval);
+    }
+},1000);*/
+
+/*let result = new Promise((resolve,reject)=>{
+    let s=true;
+    if(s){
+        resolve("Data Loaded");
+    }else{
+        reject("Error");
+    }
+});
+
+result
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=>{
+    console.log(error);
+});*/
+
+/*function fetchData(){
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve("Data received");
+        },2000);
+    });
+}
+
+async function displayData(){
+    console.log("Loading..");
+    let data = await fetchData();
+    console.log(data);
+}
+
+displayData();*/
+
+const h = document.getElementById("title");
+console.log(h);
+const p = document.getElementsByClassName("text");
+console.log(p);
+const head = document.getElementsByTagName("h2");
+console.log(head);
+
+const p1 = document.querySelector(".demo");
+console.log(p1);

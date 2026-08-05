@@ -313,6 +313,50 @@ Node.js uses this v8 js to execute the js code .
                     6.getUTCMinutes()
                     7.getUTCSeconds()
 
+//Asynchronous methods : Asynchronous js allows the program to perform long-running tasks(
+                            such as fetching data,reading files, or waiting for a timer)
+                            it will executes time consuming operations  in the background and 
+                            continues executing other code instead of waiting.
+                1.setTimeout() -- executes a function once after a specified delay.
+                                syntax: 
+                                        setTimeout(function,millisecs);
+                
+                2.setInterval() -- repeatedly executes a function after a fixed time interval.
+                                    syntax: 
+                                            setInterval(function,millisecs);
+                3.clearTimeout() -- Stops a timeout before it executes.
+
+                4.clearInterval() -- stops an interval 
+
+                5.promises -- Represents the failure of an asynchronous operations.
+                                1.pending
+                                2.Fullfilled(Resolved)
+                                3.Rejected 
+
+                                syntax: 
+                                        let promise = new Promise((resolve,reject)=>{
+
+                                        });
+        //async -- it makes a function returns a promise .
+        //await -- it pauses execution inside that function until the promise is resolved.
+
+//synchronous (blocking) -- Executest one statement at a time 
+                            the next line waits until the current line finishes.
+
+//DOM -- Document object model is a tree like representation of an html document.
+        Js uses the dom to access , modify,add,or remove html elements dynamically 
+
+        1.selecting :  means finding or selecting html elements so that js can work with them.
+                    1.getElementById() -- selects an element using id.
+
+                    2.getElementByClassName() -- selects all elements with the given class 
+
+                    3.getElementsByTagName() -- selects elements by tag name.
+
+                    4.querySelector() -- selects the first matching element.
+
+
+
                 
 
 
