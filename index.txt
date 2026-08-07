@@ -343,17 +343,70 @@ Node.js uses this v8 js to execute the js code .
 //synchronous (blocking) -- Executest one statement at a time 
                             the next line waits until the current line finishes.
 
-//DOM -- Document object model is a tree like representation of an html document.
+//DOM -- It is an application programming interface(api) for manipulating HTML Documents.
+         Document object model is a tree like representation of an html document.
         Js uses the dom to access , modify,add,or remove html elements dynamically 
 
         1.selecting :  means finding or selecting html elements so that js can work with them.
                     1.getElementById() -- selects an element using id.
 
-                    2.getElementByClassName() -- selects all elements with the given class 
+                    2.getElementsByClassName() -- selects all elements with the given class 
 
                     3.getElementsByTagName() -- selects elements by tag name.
 
-                    4.querySelector() -- selects the first matching element.
+                    4.querySelector() -- selects the all matching element.
+                    5.querySelectorAll() -- selects the all matching element.
+
+        2.Traversing : Traversing means moving from  one DOM element to another(parent, child,sibling)
+                    1.parentElement
+                    2.children
+                    3.firstElementChild 
+                    4.lastElementChild
+                    5.nextElementSibling
+                    6.previousElementSibling
+
+        3.Manipulation : changing HTML elements ,styles, or attributes using javascript.
+                            1.change text 
+                            2.chang Html 
+                            3.Change css styles
+                            4.change Attribute 
+                            5.create new element
+                            6.remove element 
+                            7.add a class
+
+
+//Node.js modules 
+                A module is a reusable block code that is organized into a separate file.
+                It is used to divide a large application into smaller files.
+                ex: E-commerce website 
+                                user.js 
+                                product.js
+                                cart.js
+                                payment.js
+                                app.js
+                types :
+                    1.core/built-in modules: 
+                                fs - fileSystem 
+                                http - server 
+                                path - file and directory paths 
+                                os - operating system information 
+                                events - handling events 
+                                url - url handling
+                    2.user module -- the user created data 
+                            app.js 
+                            calc.js
+                            function add(a,b){
+                                return a+b;
+                            }
+                    3.Third party modules -- npm(node package manager)
+
+    //importing module : require()
+                        const fs = require("fs); 
+                                    require(load modules)
+                                    file system module 
+    //export module : 
+                   module.export =;
+                            
 
 
 

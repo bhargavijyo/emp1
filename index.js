@@ -43,6 +43,8 @@ console.log(ex);
 let em = null;
 console.log(em);*/
 
+const { button } = require("framer-motion/client");
+
 //Implicit type 
 
 //1.string implicit --  If we add any data type with string it will always give string as the output.
@@ -579,7 +581,7 @@ async function displayData(){
 
 displayData();*/
 
-const h = document.getElementById("title");
+/*const h = document.getElementById("title");
 console.log(h);
 const p = document.getElementsByClassName("text");
 console.log(p);
@@ -588,3 +590,70 @@ console.log(head);
 
 const p1 = document.querySelector(".demo");
 console.log(p1);
+
+const p2 = document.querySelectorAll(".d");
+console.log(p2);*/
+
+//const btn = document.querySelector("button");
+//console.log(btn.parentElement);
+
+/*const h = document.getElementById("msg");
+console.log(h);*/
+
+//const h = document.getElementsByName("lan");
+//console.log(h);
+//let h = document.getElementsByTagName("h1");
+//console.log(h);
+
+//let h = document.querySelectorAll(".msg");
+//console.log(h);
+
+//const b = document.querySelector("button");
+//console.log(b.parentElement);
+
+/*const p = document.getElementById("parent");
+//console.log(p.children);
+
+console.log(p.firstElementChild);
+console.log(p.lastElementChild);
+
+const h = document.querySelector("h1");
+console.log(h.nextElementSibling);
+
+const b = document.querySelector("button");
+console.log(b.previousElementSibling);*/
+
+/*let p = document.getElementById("msg").innerHTML = "<i>I Want to become a developer</i>";
+console.log(p);
+
+let h = document.getElementById("p2");
+h.style.color = "blue";
+h.style.backgroundColor = "brown";
+h.style.fontSize = "50px";
+
+const p1 = document.createElement("p");
+p1.innerText = "This is new one";
+document.body.appendChild(p1);
+
+p1.remove();*/
+
+/*let h = document.getElementById("title");
+let b= document.getElementById("btn");
+b.addEventListener("click",
+    function(){
+        h.innerText = "Welcome to backend";
+        h.style.color="blue";
+    }
+);*/
+
+/*const c = require("./cal");
+console.log(c.add(10,5));
+console.log(c.subtract(50,100));*/
+
+const {add, subtract} = require("./cal");
+console.log(add(10,20));
+
+//os
+const os = require("os");
+console.log("operating system", os.platform());
+console.log("Arch:",os.arch());
